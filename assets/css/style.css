@@ -8,82 +8,7 @@ code, pre {background-color: #f8f8f8;-webkit-font-smoothing: initial;}
 a {text-decoration: none; color: #000;}
 em {font-style: normal;}
 
-/* font-face */
-@font-face {
-    font-family: 'GmarketSans';
-    font-weight: 300;
-    font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.ttf') format("truetype");
-    font-display: swap;
-} 
-@font-face {
-    font-family: 'GmarketSans';
-    font-weight: 500;
-    font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.ttf') format("truetype");
-    font-display: swap;
-} 
-@font-face {
-    font-family: 'GmarketSans';
-    font-weight: 700;
-    font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.ttf') format("truetype");
-    font-display: swap;
-} 
 
-.comments h2 {font-family: 'Ansungtangmyun';}
-.comments .comment-list ul li p {font-family: 'Ansungtangmyun';}
-.comments .comment-form textarea {font-family: 'Ansungtangmyun';}
-.comments .comment-form .submit .btn {font-family: 'Ansungtangmyun';}
-.related-articles ul li .title {font-family: 'Ansungtangmyun';}
-.tags {font-family: 'Ansungtangmyun';}
-
-.webFont__intro, 
-.webFont__use, 
-.webFont__use pre,
-.webFont__use code,
-.webFont__feel,
-.webFont__image,
-.webFont__animation,
-.webFont__code,
-.webFont__weight,
-.webFont__weight__input,
-.webFont__size, 
-.webFont__size__input,
-.webFont__layout,
-.webFont__layout__input,
-.webFont__letter,
-.range-input .value,
-.webFont__license,
-.webFont__cross {font-family: 'GmarketSans';}
-
-.webFont__weight,
-.webFont__intro h2,
-.webFont__use h2,
-.webFont__feel h2,
-.webFont__image h2,
-.webFont__animation h2,
-.webFont__code h2,
-.webFont__weight h2,
-.webFont__weight__input h2,
-.webFont__size h2,
-.webFont__layout h2,
-.webFont__layout__input,
-.webFont__letter h2,
-.webFont__license h2,
-.webFont__cross h2 {font-weight: 500;}
 
 .webFont__w100 {font-weight: 100 !important;}
 .webFont__w200 {font-weight: 200 !important;}
@@ -654,6 +579,7 @@ em {font-style: normal;}
     }
     .webFont__use__cont pre {
         overflow-x: auto;
+        font-size: 14px;
     }
     .webFont__weight__input {
         margin-bottom: 20px;
@@ -674,7 +600,8 @@ em {font-style: normal;}
     }
     .webFont__image__view,
     .webFont__feel__color,
-    .webFont__animation__btn {
+    .webFont__animation__btn,
+    .webFont__code__btn {
         text-align: center;
     }
     .webFont__code__view pre, 
