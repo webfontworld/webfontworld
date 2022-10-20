@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>지마켓산스체(GmarketSans)</title>
+    <title>프리텐다드(Pretendard)</title>
 
     <link rel="stylesheet" href="assets/css/prism.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -14,38 +14,104 @@
     <style>
         /* font-face */
         @font-face {
-            font-family: 'GmarketSans';
+            font-family: 'Pretendard';
+            font-weight: 100;
+            font-style: normal;
+            src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Thin.eot');
+            src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Thin.eot?#iefix') format('embedded-opentype'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Thin.woff2') format('woff2'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Thin.woff') format('woff'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Thin.ttf') format("truetype");
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'Pretendard';
+            font-weight: 200;
+            font-style: normal;
+            src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraLight.eot');
+            src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraLight.eot?#iefix') format('embedded-opentype'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraLight.woff2') format('woff2'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraLight.woff') format('woff'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraLight.ttf') format("truetype");
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'Pretendard';
             font-weight: 300;
             font-style: normal;
-            src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot');
-            src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot?#iefix') format('embedded-opentype'),
-                url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff2') format('woff2'),
-                url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff') format('woff'),
-                url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.ttf') format("truetype");
+            src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Light.eot');
+            src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Light.eot?#iefix') format('embedded-opentype'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Light.woff2') format('woff2'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Light.woff') format('woff'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Light.ttf') format("truetype");
             font-display: swap;
-        } 
+        }
         @font-face {
-            font-family: 'GmarketSans';
+            font-family: 'Pretendard';
+            font-weight: 400;
+            font-style: normal;
+            src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.eot');
+            src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.eot?#iefix') format('embedded-opentype'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.woff2') format('woff2'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.woff') format('woff'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.ttf') format("truetype");
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'Pretendard';
             font-weight: 500;
             font-style: normal;
-            src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot');
-            src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot?#iefix') format('embedded-opentype'),
-                url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff2') format('woff2'),
-                url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff') format('woff'),
-                url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.ttf') format("truetype");
+            src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.eot');
+            src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.eot?#iefix') format('embedded-opentype'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.woff2') format('woff2'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.woff') format('woff'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.ttf') format("truetype");
             font-display: swap;
-        } 
+        }
         @font-face {
-            font-family: 'GmarketSans';
+            font-family: 'Pretendard';
+            font-weight: 600;
+            font-style: normal;
+            src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.eot');
+            src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.eot?#iefix') format('embedded-opentype'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.woff2') format('woff2'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.woff') format('woff'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.ttf') format("truetype");
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'Pretendard';
             font-weight: 700;
             font-style: normal;
-            src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot');
-            src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot?#iefix') format('embedded-opentype'),
-                url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff2') format('woff2'),
-                url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff') format('woff'),
-                url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.ttf') format("truetype");
+            src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.eot');
+            src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.eot?#iefix') format('embedded-opentype'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.woff2') format('woff2'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.woff') format('woff'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.ttf') format("truetype");
             font-display: swap;
-        } 
+        }
+        @font-face {
+            font-family: 'Pretendard';
+            font-weight: 800;
+            font-style: normal;
+            src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraBold.eot');
+            src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraBold.eot?#iefix') format('embedded-opentype'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraBold.woff2') format('woff2'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraBold.woff') format('woff'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraBold.ttf') format("truetype");
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'Pretendard';
+            font-weight: 900;
+            font-style: normal;
+            src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Black.eot');
+            src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Black.eot?#iefix') format('embedded-opentype'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Black.woff2') format('woff2'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Black.woff') format('woff'),
+                url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Black.ttf') format("truetype");
+            font-display: swap;
+        }
 
         .comments h2,
         .comments .comment-list ul li p,
@@ -53,7 +119,7 @@
         .comments .comment-form .submit .btn,
         .related-articles ul li .title,
         .tags,
-        .related-articles h2 {font-family: 'GmarketSans' !important;}
+        .related-articles h2 {font-family: 'Pretendard' !important;}
 
         .webFont__intro, 
         .webFont__use, 
@@ -72,7 +138,7 @@
         .webFont__letter,
         .range-input .value,
         .webFont__license,
-        .webFont__cross {font-family: 'GmarketSans';}
+        .webFont__cross {font-family: 'Pretendard';}
 
         .webFont__weight,
         .webFont__intro h2,
@@ -88,7 +154,7 @@
         .webFont__layout__input,
         .webFont__letter h2,
         .webFont__license h2,
-        .webFont__cross h2 {font-weight: 500;}
+        .webFont__cross h2 {font-weight: 400;}
 
         /* tistory */
         .hgroup {max-width: initial; margin: 0; padding: 0;}
@@ -99,7 +165,7 @@
     </style>
     <section id="webFont2" class="webFont2">
         <div class="webFont__intro webFont__container">
-            <h2>지마켓산스체(GmarketSans)</h2>
+            <h2>프리텐다드(Pretendard)</h2>
             <div class="webFont__intro__img">
                 <div class="intro webFont__w300">
                     <div>가나다라마바사아자카타파차하</div>
@@ -108,14 +174,14 @@
                     <div>abcdefghijklnmopqrstuwxyz</div>
                     <div>1234567890!@#$%^&*[]{}\:;'"?/</div>
                 </div>
-                <div class="img1"><img src="assets/img/gmark01.jpg" alt="웹 폰트1"></div>
-                <div class="img2"><img src="assets/img/gmark02.jpg" alt="웹 폰트2"></div>
-                <div class="img3"><img src="assets/img/gmark03.jpg" alt="웹 폰트3"></div>
-                <div class="img4"><img src="assets/img/gmark04.jpg" alt="웹 폰트3"></div>
+                <div class="img1"><img src="assets/img/score01.jpg" alt="웹 폰트1"></div>
+                <div class="img2"><img src="assets/img/score02.jpg" alt="웹 폰트2"></div>
+                <div class="img3"><img src="assets/img/score03.jpg" alt="웹 폰트3"></div>
+                <div class="img4"><img src="assets/img/score04.jpg" alt="웹 폰트3"></div>
             </div>
             <div class="webFont__intro__btn">
-                <a href="http://company.gmarket.co.kr/company/about/company/company--font.asp">다운로드</a>
-                <a href="https://github.com/webfontworld/gmarket">웹폰트 다운로드</a>
+                <a href="https://cactus.tistory.com/306">다운로드</a>
+                <a href="https://github.com/webfontworld/pretendard">웹폰트 다운로드</a>
             </div>
         </div>
         <!-- //webFont__intro -->
@@ -133,48 +199,114 @@
             </div>
             <div class="webFont__use__cont">
                 <div>
-<pre><code>font-family: 'GmarketSans';</code></pre>
+<pre><code>font-family: 'Pretendard';</code></pre>
                 </div>
                 <div>
-<pre><code>&lt;link href="https://webfontworld.github.io/gmarket/GmarketSans.css" rel="stylesheet"&gt;</code></pre>
+<pre><code>&lt;link href="https://webfontworld.github.io/pretendard/Pretendard.css" rel="stylesheet"&gt;</code></pre>
                 </div>
                 <div>
-<pre><code>@import url('https://webfontworld.github.io/gmarket/GmarketSans.css');</code></pre>
+<pre><code>@import url('https://webfontworld.github.io/pretendard/Pretendard.css');</code></pre>
                 </div>
                 <div>
 <pre><code>@font-face {
-    font-family: 'GmarketSans';
+    font-family: 'Pretendard';
+    font-weight: 100;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Thin.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Thin.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Thin.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Thin.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Thin.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 200;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraLight.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Pretendard';
     font-weight: 300;
     font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff') format('woff'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.ttf') format("truetype");
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Light.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Light.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Light.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Light.ttf') format("truetype");
     font-display: swap;
-} 
+}
 @font-face {
-    font-family: 'GmarketSans';
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Pretendard';
     font-weight: 500;
     font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff') format('woff'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.ttf') format("truetype");
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.ttf') format("truetype");
     font-display: swap;
-} 
+}
 @font-face {
-    font-family: 'GmarketSans';
+    font-family: 'Pretendard';
+    font-weight: 600;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Pretendard';
     font-weight: 700;
     font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff') format('woff'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.ttf') format("truetype");
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.ttf') format("truetype");
     font-display: swap;
-} 
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 800;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraBold.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 900;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Black.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Black.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Black.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Black.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Black.ttf') format("truetype");
+    font-display: swap;
+}
 </code></pre>
                 </div>
                 <div>
@@ -201,15 +333,15 @@
             <h2>웹 폰트 / 두께</h2>
             <input type="text" id="webFont__weight__input" class="webFont__weight__input" placeholder="글씨를 입력하면 변경됩니다.">
             <ul class="webFont__weight__preview">
-                <li class="w100 notActive">이 폰트의 두께는 여러가지가 있습니다. The thickness of this font is different.</li>
-                <li class="w200 notActive">이 폰트의 두께는 여러가지가 있습니다. The thickness of this font is different.</li>
+                <li class="w100">이 폰트의 두께는 여러가지가 있습니다. The thickness of this font is different.</li>
+                <li class="w200">이 폰트의 두께는 여러가지가 있습니다. The thickness of this font is different.</li>
                 <li class="w300">이 폰트의 두께는 여러가지가 있습니다. The thickness of this font is different.</li>
-                <li class="w400 notActive">이 폰트의 두께는 여러가지가 있습니다. The thickness of this font is different.</li>
+                <li class="w400">이 폰트의 두께는 여러가지가 있습니다. The thickness of this font is different.</li>
                 <li class="w500">이 폰트의 두께는 여러가지가 있습니다. The thickness of this font is different.</li>
-                <li class="w600 notActive">이 폰트의 두께는 여러가지가 있습니다. The thickness of this font is different.</li>
-                <li class="w700 notActive">이 폰트의 두께는 여러가지가 있습니다. The thickness of this font is different.</li>
+                <li class="w600">이 폰트의 두께는 여러가지가 있습니다. The thickness of this font is different.</li>
+                <li class="w700">이 폰트의 두께는 여러가지가 있습니다. The thickness of this font is different.</li>
                 <li class="w800">이 폰트의 두께는 여러가지가 있습니다. The thickness of this font is different.</li>
-                <li class="w900 notActive">이 폰트의 두께는 여러가지가 있습니다. The thickness of this font is different.</li>
+                <li class="w900">이 폰트의 두께는 여러가지가 있습니다. The thickness of this font is different.</li>
                 <li class="wLighter">이 폰트의 두께는 여러가지가 있습니다. The thickness of this font is different.</li>
                 <li class="wNormal">이 폰트의 두께는 여러가지가 있습니다. The thickness of this font is different.</li>
                 <li class="wBold">이 폰트의 두께는 여러가지가 있습니다. The thickness of this font is different.</li>
@@ -222,15 +354,15 @@
             <h2 class="webFont__container">웹 폰트 / 이미지
                 <em>
                     <span class="notActive">normal</span>
-                    <span class="notActive">100</span>
-                    <span class="notActive">200</span>
-                    <span class="">300</span>
-                    <span class="notActive">400</span>
-                    <span class="active">500</span>
-                    <span class="notActive">600</span>
-                    <span class="">700</span>
-                    <span class="notActive">800</span>
-                    <span class="notActive">900</span>
+                    <span>100</span>
+                    <span>200</span>
+                    <span>300</span>
+                    <span class="active">400</span>
+                    <span>500</span>
+                    <span>600</span>
+                    <span>700</span>
+                    <span>800</span>
+                    <span>900</span>
                 </em>
             </h2>
             <div class="webFont__image__view webFont__container">
@@ -249,9 +381,9 @@
                 <button class="style13"></button>
             </div>
             <div class="webFont__image__font">
-                <div class="style5">
-                    <strong>지마켓산스 폰트</strong> 
-                    <em>Gmarket</em>
+                <div class="style6">
+                    <strong>프리텐다드</strong> 
+                    <em>Pretendard</em>
                 </div>
             </div>
         </div>
@@ -261,15 +393,15 @@
             <h2>웹 폰트 / 사이즈
                 <em>
                     <span class="notActive">normal</span>
-                    <span class="notActive">100</span>
-                    <span class="notActive">200</span>
-                    <span class="">300</span>
-                    <span class="notActive">400</span>
-                    <span class="active">500</span>
-                    <span class="notActive">600</span>
-                    <span class="">700</span>
-                    <span class="notActive">800</span>
-                    <span class="notActive">900</span>
+                    <span>100</span>
+                    <span>200</span>
+                    <span>300</span>
+                    <span class="active">400</span>
+                    <span>500</span>
+                    <span>600</span>
+                    <span>700</span>
+                    <span>800</span>
+                    <span>900</span>
                 </em>
             </h2>
             <input type="text" id="webFont__size__input" class="webFont__size__input" placeholder="글씨를 입력하면 변경됩니다.">
@@ -297,15 +429,15 @@
             <h2 class="webFont__container">웹 폰트 / 컬러
                 <em>
                     <span class="notActive">normal</span>
-                    <span class="notActive">100</span>
-                    <span class="notActive">200</span>
-                    <span class="">300</span>
-                    <span class="notActive">400</span>
-                    <span class="active">500</span>
-                    <span class="notActive">600</span>
-                    <span class="">700</span>
-                    <span class="notActive">800</span>
-                    <span class="notActive">900</span>
+                    <span>100</span>
+                    <span>200</span>
+                    <span>300</span>
+                    <span class="active">400</span>
+                    <span>500</span>
+                    <span>600</span>
+                    <span>700</span>
+                    <span>800</span>
+                    <span>900</span>
                 </em>
             </h2>
             <div class="webFont__feel__color webFont__container">
@@ -324,9 +456,9 @@
                 <button class="style13"></button>
             </div>
             <div class="webFont__feel__view">
-                <div class="style10">
-                    <strong>지마켓 산스체</strong>
-                    <em>gmarket</em>
+                <div class="style13">
+                    <strong>프리텐다드</strong> 
+                    <em>Pretendard</em>
                 </div>
             </div>
         </div>
@@ -336,15 +468,15 @@
             <h2>웹 폰트 / 레이아웃
                 <em>
                     <span class="notActive">normal</span>
-                    <span class="notActive">100</span>
-                    <span class="notActive">200</span>
-                    <span class="">300</span>
-                    <span class="notActive">400</span>
-                    <span class="active">500</span>
-                    <span class="notActive">600</span>
-                    <span class="">700</span>
-                    <span class="notActive">800</span>
-                    <span class="notActive">900</span>
+                    <span>100</span>
+                    <span>200</span>
+                    <span>300</span>
+                    <span class="active">400</span>
+                    <span>500</span>
+                    <span>600</span>
+                    <span>700</span>
+                    <span>800</span>
+                    <span>900</span>
                 </em>
             </h2>
             <input type="text" id="webFont__layout__input" class="webFont__layout__input" placeholder="글씨를 입력하면 변경됩니다.">
@@ -363,19 +495,67 @@
         </div>
         <!-- //webFont__layout -->
 
+        <style>
+            .webFont__variable {
+                max-width: 100%;
+                text-align: center;
+                font-size: 9vw;
+                line-height: 1.25;
+            }
+            .webFont__variable div > span {
+            animation: variable-loop 4s infinite both;
+            animation-delay: var(--delay);
+            text-align: center;
+
+            --delay: calc((var(--variable-index) + 1) * 0.15s);
+
+            @keyframes variable-loop {
+	0% {
+		font-weight: 45;
+	}
+	50% {
+		font-weight: 930;
+	}
+	100% {
+		font-weight: 45;
+	}
+}
+        }
+        </style>
+
+        <div class="webFont__variable">
+            <div>
+                <span style="--variable-index: 0;">P</span>
+                <span style="--variable-index: 1;">r</span>
+                <span style="--variable-index: 2;">e</span>
+                <span style="--variable-index: 3;">t</span>
+                <span style="--variable-index: 4;">e</span>
+                <span style="--variable-index: 5;">n</span>
+                <span style="--variable-index: 6;">d</span>
+                <span style="--variable-index: 7;">a</span>
+                <span style="--variable-index: 8;">r</span>
+                <span style="--variable-index: 9;">d</span>
+                <span style="--variable-index: 10;">프</span>
+                <span style="--variable-index: 11;">리</span>
+                <span style="--variable-index: 12;">텐</span>
+                <span style="--variable-index: 13;">다</span>
+                <span style="--variable-index: 14;">드</span>
+            </div>
+        </div>
+
         <div class="webFont__letter">
             <h2 class="webFont__container">웹 폰트 / 자간
                 <em>
                     <span class="notActive">normal</span>
-                    <span class="notActive">100</span>
-                    <span class="notActive">200</span>
-                    <span class="">300</span>
-                    <span class="notActive">400</span>
-                    <span class="active">500</span>
-                    <span class="notActive">600</span>
-                    <span class="">700</span>
-                    <span class="notActive">800</span>
-                    <span class="notActive">900</span>
+                    <span>100</span>
+                    <span>200</span>
+                    <span>300</span>
+                    <span class="active">400</span>
+                    <span>500</span>
+                    <span>600</span>
+                    <span>700</span>
+                    <span>800</span>
+                    <span>900</span>
                 </em>
             </h2>
             <div class="webFont__letter__range webFont__container">
@@ -391,8 +571,8 @@
                 </div>
             </div>
             <div class="webFont__letter__view">
-                <div>지마켓 산스체</div>
-                <div>GmarketSans</div>
+                <div>프리텐다드</div> 
+                <div>Pretendard</div>
             </div>
         </div>
         <!-- //webFont__letter -->
@@ -408,7 +588,7 @@
                 <button class="style6"></button>
             </div>
             <div class="webFont__animation__view webFont__container">
-                <div class="style5">
+                <div class="style2">
                     <div class="ani1 WeightBold">
                         <div>웹폰트</div>
                     </div>
@@ -570,11 +750,11 @@
                     <tr>
                         <td rowspan="2">OFL</td>
                         <td class="red">폰트 파일의 수정, 편집 및 재배포</td>
-                        <td class="red">문의</td>
+                        <td class="red">금지</td>
                     </tr>
                     <tr>
                         <td class="red">폰트 파일의 유료 판매</td>
-                        <td class="red">금지</td>
+                        <td>○</td>
                     </tr>
                     <tr>
                         <td rowspan="2">용도</td>
@@ -593,8 +773,7 @@
                 </tbody>
             </table>
             <ul class="list">
-                <li>Gmarket Sans는 다양한 브랜드, 판매자, 사용자가 함께 성장하며 가치를 나눌 수 있도록 만든 글꼴입니다. 누구나 아무 제약 없이 쉽게 사용할 수 있습니다.</li>
-                <li>Gmarket Sans는 누구나 제약 없이 자유롭게 수정하고 재배포 하실 수 있습니다.</li>
+                <li>글꼴 단독 판매를 제외한 모든 상업적 행위 및 수정, 재배포가 가능합니다.</li>
                 <li class="line">제공되는 모든 서체의 지적 재산권을 포함한 모든 권리는 제작사에 있으니, 사용하기 전에 제작사 사이트에 가셔서 꼭 확인하시길 바랍니다.</li>
                 <li class="line">문의에 해당되는 부분은 라이센스에 나와 있지 않으므로, 제작사에 꼭 문의를 하시고 사용하기 바랍니다.</li>
                 <li class="line">이미지 및 폰트는 제작사 사이트에서 출처됨을 알려드립니다.</li>

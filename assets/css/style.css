@@ -8,8 +8,6 @@ code, pre {background-color: #f8f8f8;-webkit-font-smoothing: initial;}
 a {text-decoration: none; color: #000;}
 em {font-style: normal;}
 
-
-
 .webFont__w100 {font-weight: 100 !important;}
 .webFont__w200 {font-weight: 200 !important;}
 .webFont__w300 {font-weight: 300 !important;}
@@ -28,7 +26,7 @@ em {font-style: normal;}
 .webFont__intro__img {overflow: hidden; display: flex; flex-wrap: wrap; background: #000;}
 .webFont__intro__img > div {width: 25%;}
 .webFont__intro__img > div img {width: 100%; vertical-align: top;}
-.webFont__intro__img .intro {width: 100%; padding: 3vw 1vw; background: #0031d5; font-size: 2vw; color: #fff; text-align: center;}
+.webFont__intro__img .intro {width: 100%; height: auto; padding: 3vw 1vw; background: #0031d5; font-size: 2vw; color: #fff; text-align: center;}
 .webFont__intro__img .intro > div {line-height: 1.42;}
 .webFont__intro__btn {overflow: hidden; text-align: center;}
 .webFont__intro__btn > a {display: block; float: left; width: 50%; background: #FA4250; color: #fff; padding: 20px; box-sizing: border-box; transition: opacity 0.3s;}
@@ -527,9 +525,7 @@ em {font-style: normal;}
     }
 }
 @media (max-width: 960px){
-    .webFont__intro__img > div {
-        width: 50%;
-    }
+    .webFont__intro__img > div {width: 50%;}
 }
 @media (max-width: 600px){
     .webFont__intro h2,
@@ -558,6 +554,9 @@ em {font-style: normal;}
         display: block;
         margin-top: 10px;
         text-align: center;
+    }
+    .webFont__intro__img > div { 
+        width: 100%;
     }
     .webFont__intro__img .intro {
         font-size: 18px;
