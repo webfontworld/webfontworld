@@ -22,7 +22,7 @@ em {font-style: normal;}
 
 .webFont__container {width: 100%; max-width: 1200px; margin: 0 auto;}
 
-.webFont__intro h2 {font-size: 3rem; padding: 40px 0 20px;}
+.webFont__intro h2 {font-size: 3rem; padding: 100px 0 20px;}
 .webFont__intro__img {overflow: hidden; display: flex; flex-wrap: wrap; background: #000;}
 .webFont__intro__img > div {width: 25%;}
 .webFont__intro__img > div img {width: 100%; vertical-align: top;}
@@ -242,7 +242,7 @@ em {font-style: normal;}
 .webFont__letter__view > div:last-child {font-size: 0.5em;}
 .webFont__letter__range {text-align: center; padding: 20px; height: 80px; position: relative; display: flex; }
 
-.webFont_ad {background: #f5f5f5; min-height: 400px; margin-top: 100px;}
+.webFont_ad {background: #f5f5f5; min-height: 1px; margin-top: 100px;}
 
 .webFont__license h2 {font-size: 2rem; padding: 30px 0 20px;}
 .webFont__license table { border-spacing: 0; font-size: 18px;}
