@@ -1,0 +1,147 @@
+[
+    {
+        "name" : "생거진천체",
+        "name_eng" : "SaenggeoJincheon",
+        "weight" : ["normal"],
+        "download" : "https://www.jincheon.go.kr/home/sub.do?menukey=3837",
+        "link" : "542"
+    },{
+        "name" : "땅스부대찌개",
+        "name_eng" : "TangsBudaeJjigae",
+        "weight" : ["300","500","700"],
+        "download" : "http://tsbudae.com/theme/GT2/contents/Fontpage.php",
+        "link" : "541"
+    },{
+        "name" : "나눔스퀘어네오",
+        "name_eng" : "NanumSquareNeo",
+        "weight" : ["300","400","700","800","900"],
+        "download" : "https://hangeul.naver.com/font",
+        "link" : "540"
+    },{
+        "name" : "116수박화체",
+        "name_eng" : "116WaterMelon",
+        "weight" : ["normal"],
+        "download" : "https://blog.naver.com/wosr1/221324032660",
+        "link" : "539"
+    },{
+        "name" : "레베카체",
+        "name_eng" : "Rebecca",
+        "weight" : ["normal"],
+        "download" : "http://www.earlyfont.com/portfolio/EF_REBECCA",
+        "link" : "538"
+    },{
+        "name" : "창원단감아삭체",
+        "name_eng" : "ChangwonDangamAsac",
+        "weight" : ["normal"],
+        "download" : "https://www.changwon.go.kr/depart/contents.do?mId=1006160000",
+        "link": "537"
+    },{
+        "name" : "카페24클래식타입체",
+        "name_eng" : "Cafe24ClassicType",
+        "weight" : ["normal"],
+        "download" : "https://fonts.cafe24.com/",
+        "link" : "529"
+    },{
+        "name" : "안성탕면체",
+        "name_eng" : "Ansungtangmyun",
+        "weight" : ["normal"],
+        "download" : "http://www.nongshim.com/promotion/event/view/2022/09_ansung/ansung_event",
+        "link" : "517"
+    },{
+        "name" : "밀양아리랑고딕체",
+        "name_eng" : "MYArirangGothic",
+        "weight" : ["normal"],
+        "download" : "https://www.miryang.go.kr/tur/index.do?mnNo=30105000000",
+        "link" : "516"
+    },{
+        "name" : "밀양해맑은상상체",
+        "name_eng" : "MYHaemalgeunSangsang",
+        "weight" : ["normal"],
+        "download" : "https://www.miryang.go.kr/tur/index.do?mnNo=30105000000",
+        "link" : "515"
+    },{
+        "name" : "밀양영남루체",
+        "name_eng" : "MYYeongnamnu",
+        "weight" : ["normal"],
+        "download" : "https://www.miryang.go.kr/tur/index.do?mnNo=30105000000",
+        "link" : "514"
+    },{
+        "name" : "밀양아리랑체",
+        "name_eng" : "MYArirang",
+        "weight" : ["normal"],
+        "download" : "https://www.miryang.go.kr/tur/index.do?mnNo=30105000000",
+        "link" : "513"
+    },{
+        "name" : "마이쮸체",
+        "name_eng" : "CrownMychew",
+        "weight" : ["normal"],
+        "download" : "https://www.crown.co.kr/main/index.asp",
+        "link" : "512"
+    },{
+        "name" : "혀니고딕체",
+        "name_eng" : "EF_Hyunygothic",
+        "weight" : ["normal"],
+        "download" : "http://www.earlyfont.com/portfolio/EARLYFONT_HYUNY%20GO",
+        "link" : "511"
+    },{
+        "name" : "마초체",
+        "name_eng" : "EF_Macho",
+        "weight" : ["normal"],
+        "download" : "http://www.earlyfont.com/portfolio/EARLYFONT_MACHO",
+        "link" : "510"
+    },{
+        "name" : "달성힐링체",
+        "name_eng" : "DalseoHealing",
+        "weight" : ["normal"],
+        "download" : "https://dalseo.daegu.kr/index.do?menu_id=00003453",
+        "link" : "509"
+    },{
+        "name" : "달성달링체",
+        "name_eng" : "DalseoDarling",
+        "weight" : ["normal"],
+        "download" : "https://dalseo.daegu.kr/index.do?menu_id=00003452",
+        "link" : "508"
+    },{
+        "name" : "읏찬체",
+        "name_eng" : "OKChan",
+        "weight" : ["normal"],
+        "download" : "http://www.3jong.com/download.html",
+        "link" : "507"
+    },{
+        "name" : "읏궁체",
+        "name_eng" : "OKGung",
+        "weight" : ["normal"],
+        "download" : "http://www.3jong.com/download.html",
+        "link" : "506"
+    },{
+        "name" : "읏뚱체",
+        "name_eng" : "OKDdung",
+        "weight" : ["normal"],
+        "download" : "http://www.3jong.com/download.html",
+        "link" : "505"
+    },{
+        "name" : "평창체",
+        "name_eng" : "PyeongChang",
+        "weight" : ["400", "700"],
+        "download" : "https://www.pc.go.kr/portal/intro/intro-summary/pcFont",
+        "link" : "504"
+    },{
+        "name" : "평창평화체",
+        "name_eng" : "PyeongChangPeace",
+        "weight" : ["300", "700"],
+        "download" : "https://www.pc.go.kr/portal/intro/intro-summary/pcFont",
+        "link" : "503"
+    },{
+        "name" : "마비옛체",
+        "name_eng" : "MabinogiClassic",
+        "weight" : ["normal"],
+        "download" : "https://mabinogi.nexon.com/page/pds/font.asp",
+        "link" : "502"
+    },{
+        "name" : "우리다움체",
+        "name_eng" : "Wooridaum",
+        "weight" : ["300","400","700"],
+        "download" : "https://www.woorifg.com/kor/company/ci/font/contentsid/581/index.do",
+        "link" : "499"
+    }
+]
