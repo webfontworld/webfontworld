@@ -33,6 +33,7 @@
         .font__list {
             display: flex;
             flex-wrap: wrap;
+            color: #fff;
         }
         .font__list > div {
             width: 10%;
@@ -46,40 +47,68 @@
             border-radius: 20px;
             overflow: hidden;
         }
+        
     </style>
 </head>
 <body>
+    <!-- 
+        https://webfontworld.github.io/webfontworld/assets/svg/SaenggeoJincheon.svg
+    -->
     <div class="search__wrap">
         <h1>원하는 폰트 찾기</h1>
+
+        <div class="font__list"></div>
     </div>
 
     <script>
         const searchWrap = document.querySelector(".search__wrap");
+        const fontList = searchWrap.querySelector(".font__list");
 
         let fontsAll = [];           //모든 퀴즈 문제
+
+        // 시작하기
+        const startFont = () => {   
+            dataFont();      //폰트 데이터 가져오기
+            
+        }
 
         const dataFont = () => {
             fetch("assets/json/font.json")
             .then(res => res.json())
             .then(items => {
-                console.log(items)
-                questionAll = items.map((item, index) => {
+                fontsAll = items.map((item, index) => {
                     const formattedFont = {
                         name: item.name,
                         name_eng: item.name_eng,
-                        name_full: item.name + "(" + item.name_eng + ")"
+                        name_full: item.name + "(" + item.name_eng + ")",
+                        img_svg: "https://webfontworld.github.io/webfontworld/assets/svg/"+ item.name_eng + ".svg",
+                        img_jpg1: "https://webfontworld.github.io/webfontworld/assets/img/"+ item.name_eng + "01.jpg",
+                        img_jpg2: "https://webfontworld.github.io/webfontworld/assets/img/"+ item.name_eng + "02.jpg",
+                        img_jpg3: "https://webfontworld.github.io/webfontworld/assets/img/"+ item.name_eng + "03.jpg",
+                        img_jpg4: "https://webfontworld.github.io/webfontworld/assets/img/"+ item.name_eng + "04.jpg",
                     };
                     console.log(formattedFont)
-                })
+                    return formattedFont;
+                });
+                newfont();     
+            })
+            .catch((err) => console.error(err));
+        }
+        
+        const newfont = () => {
+            const fontSvg = [];
+
+            fontsAll.forEach(font => {
+                fontSvg.push(`
+                    <div><img src=${font.img_svg} alt=${font.name_full}></div>
+                `);
+                fontList.innerHTML = fontSvg.join('');
             })
         }
 
 
 
-        // 시작하기
-        const startFont = () => {   
-            dataFont();      //폰트 데이터 가져오기
-        }
+        
         startFont();
     </script>
 </body>
